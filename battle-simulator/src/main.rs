@@ -1,3 +1,9 @@
+use bevy::prelude::*;
+
+mod battle;
+
 fn main() {
-    println!("Hello, world!");
+    App::new()
+    .add_plugins(DefaultPlugins)
+    .run();
 }
